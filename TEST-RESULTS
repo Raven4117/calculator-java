@@ -1,0 +1,32 @@
+TEST RESULTS - Calculator Black Box Testing
+
+1. Input: 11+11
+   Result: 22
+   Status: PASS
+2. Input: F22
+   Result: ERROR
+   Status: PASS
+3. Input: 10+5*5+11
+   Result: 46
+   Status: PASS
+4. Input: 100
+   Result: 100
+   Status: PASS
+5. Input: af+10
+   Result: ERROR
+   Status: PASS
+6. Input: 10/0
+   Result: Idealno bi trebao return error da pokaze ili neku poruku.
+   Status: FAIL
+7. Input: ((2+3)*4)
+   Result: ERROR, izgleda da kod ne podrzava zagrade i daje error.
+   Status: FAIL
+8. Input: 1000000000*1000000
+   Result: 1.0E10
+   Status: PASS
+9. Input: (Prazan Input)
+   Result: ERROR - kod se crashuje
+   Status: FAIL
+10. Input: 4 + 5 
+   Result: 9
+   Status: PASS
